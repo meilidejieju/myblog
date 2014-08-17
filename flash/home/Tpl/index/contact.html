@@ -1,0 +1,39 @@
+<include file="common/headerforflash"/>
+<body>
+<include file="common/mainheader"/>
+<div class="clear"></div>
+<div class="main-bg">
+<div class="container">
+<div class="main-wrp">
+	<div class="artists">
+
+		<div class="contact-form">
+			<h4></h4>
+			<form action="{$base_url}/index.php/Mainajax/addLiuyan" method="post">
+			<div>
+				<span><label>姓名</label></span>
+				<span><input type="text" value="" name="user" style="color:#7CAE06 "></span>
+			</div>
+			<div>
+			<span><label>邮箱地址</label></span>
+				<span><input type="text" value="" name="email" style="color:#7CAE06 "></span>
+				</div>
+				<div>
+				<span><label>打下留言</label></span>
+			 <span><textarea name="content" style="color:#7CAE06 "> </textarea></span>
+			 </div>
+			<div>
+			<span><input type="submit" value="发送"></span>
+			</div>
+            </form>
+		</div>
+		<div class="clear"></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="clear"></div>
+<include file="common/mainfooter"/>
+</body>
+</html>

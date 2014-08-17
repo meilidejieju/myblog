@@ -1,0 +1,32 @@
+<include file="common/headerforflash"/>
+
+<body>
+<include file="common/mainheader"/>
+<div class="main-bg">
+<div class="main-wrp">
+<div class="main-list">
+	<a class="btn" href="{$base_url}/flash/files/flash_plug.apk" style="margin-bottom: 10px;display: none">下载flash插件(android)</a>
+
+     <foreach name="list" item="vo">
+         <div class="span4">
+             <div class="css3gallery">
+                 <a href="{$base_url}/index.php/Index/viewdetail/id/{$vo.id}">
+                     <img width="95%" src="{$base_url}{$vo.picurl}" alt="fotograph" title="" />
+                 </a>
+             </div>
+             <div class="clear"></div>
+         </div>
+    </foreach>
+
+
+
+	<div class="clear"></div>
+	{$pagebar}
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="clear"></div>
+<include file="common/mainfooter"/>
+</body>
+</html>

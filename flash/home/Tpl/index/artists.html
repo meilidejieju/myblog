@@ -1,0 +1,39 @@
+<include file="common/headerforflash"/>
+<style>
+    .product-grid:hover{
+        box-shadow:none;
+    }
+</style>
+<body>
+<include file="common/mainheader"/>
+<div class="main-bg">
+<div class="">
+	<div class="">
+		<div class="product-grids">
+			<div class="bloder-content">
+				<a class="btn" href="javascript:history.go(-1);"><</a>
+                <a class="btn"  href="{$base_url}/flash/files/flash_plug.apk">下载flash插件(手机浏览器打开)</a>
+				<div class="product-grid" style="margin-top: 10px;">
+                    <div style="width: 100%;" >
+                        <object  style="box-shadow: 0 0 10px #555555 " width="96%" height="350" data="{$detail.link}" type="application/x-shockwave-flash"> 如果此处没有播放，请先点击上方按钮下载flash插件(andriod)或者去其他商店下载（ios）</object>
+                    </div>
+
+					<h4>{$detail.subject}</h4>
+					<p>{$detail.description} </p>
+					<div class="btn-group">
+						<button class="btn" style="background: #999">暂不支持收藏</button>
+					</div>
+				</div>
+
+				</div>
+				</div>
+
+			<div class="clear"></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+<include file="common/mainfooter"/>
+</body>
+</html>
